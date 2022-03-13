@@ -37,7 +37,6 @@ public class OptionalMain {
                 .map(name -> "my name is " + name)
                 .orElse("John Doe");
         System.out.println("myname = " + myname);
-
     }
 
     public static User getUser(boolean flag){
